@@ -20,9 +20,9 @@ Accomplishing this will give Horiseon Solutions a codebase that follows accessib
 
 The first thing I noticed about the Horiseon Site is that one of the links did not function.  
 
-When I took a look at the HTML code I found very few semantic elements.  It was mostly <divs>.  The CSS code contained many reduntant selectors.
+When I took a look at the HTML code I found very few semantic elements.  It was mostly `<div>`s.  The CSS code contained many reduntant selectors.
 
-I made the HTML more semantic by replacing <divs> with elements <header>, <nav>, <main>, <aside>, <section>, and <footer>.  This makes it easier to distinguish which code is creating/modifying particular segments of the Horiseon Web Page.   
+I made the HTML more semantic by replacing `<div>`s with elements `<header>`, `<nav>`, `<main>`, `<aside>`, `<section>`>, and `<footer>`.  This makes it easier to distinguish which code is creating/modifying particular segments of the Horiseon Web Page.   
 
 
 ### Summary of HTML semantic improvements:
@@ -30,31 +30,31 @@ I made the HTML more semantic by replacing <divs> with elements <header>, <nav>,
 Improvement# | Old HTML | Change | New HTML
 -------|-------|---------|-----------
  1 | Line 7 | Titled Site "Horiseon Solutions" | Line 8
- 2 | Line  11 | Replaced <div> with  <header> | Line 15
+ 2 | Line  11 | Replaced `<div>` with  ``<header>`` | Line 15
  3 | Line 12 | Assigned class "logo" | Line 17
- 4 | Line 13 | Replaced <div> with <nav> | Line 19
+ 4 | Line 13 | Replaced `<div>` with `<nav>` | Line 19
  5 | Line 13 | Assigned class "links" | Line 19
  6 | Line 27 | Assigned class and title "background-image" | Line 40
- 7 | Line 28 | Replaced <div> with <main> | Line 43
+ 7 | Line 28 | Replaced `<div>` with `<main>` | Line 43
  8 | Line 28 | Reassigned class to "services" | Line 43
- 9 | Line 29 | Replaced <div> with <section> | Line 46
+ 9 | Line 29 | Replaced `<div>` with `<section>`> | Line 46
 10 | Line 29 | Reassigned class to "service-section" | Line 46
 11 | Line 29 | Restored link functionality by adding id | Line 46
-12 | Line 30 | Added alt attribute to <img> | Line 48
-13 | Line 36 | Replaced <div> with <section> | Line 58
+12 | Line 30 | Added alt attribute to `<img>` | Line 48
+13 | Line 36 | Replaced `<div>` with `<section>`> | Line 58
 14 | Line 36 | Reassigned class to "service-section" | Line 58
-15 | Line 37 | Added alt attribute to <img> | Line 60
-16 | Line 43 | Replaced <div> with <section> | Line 70
+15 | Line 37 | Added alt attribute to `<img>` | Line 60
+16 | Line 43 | Replaced `<div>` with `<section>`> | Line 70
 17 | Line 43 | Reassigned class to "service-section" | Line 70
-18 | Line 44 | Added alt attribute to <img> | Line 72
-19 | Line 51 | Replaced <div> with <aside> | Line 84
-20 | Line 52 | Replaced <div> with <section> | Line 87
-21 | Line 54 | Added alt attribute to <img> | Line 90
-22 | Line 59 | Replaced <div> with <section> | Line 98
-23 | Line 61 | Added alt attribute to <img> | Line 101
-24 | Line 66 | replaced <div> with <section> | Line 109
-25 | Line 68 | Added alt attribute to <img> | Line 112
-26 | Line 74 | Replaced <div> with <footer> | Line 122
+18 | Line 44 | Added alt attribute to `<img>` | Line 72
+19 | Line 51 | Replaced `<div>` with `<aside>` | Line 84
+20 | Line 52 | Replaced `<div>` with `<section>`> | Line 87
+21 | Line 54 | Added alt attribute to `<img>` | Line 90
+22 | Line 59 | Replaced `<div>` with `<section>`> | Line 98
+23 | Line 61 | Added alt attribute to `<img>` | Line 101
+24 | Line 66 | replaced `<div>` with `<section>`> | Line 109
+25 | Line 68 | Added alt attribute to `<img>` | Line 112
+26 | Line 74 | Replaced `<div>` with `<footer>` | Line 122
 
 
 Summary of CSS improvements coming soon
