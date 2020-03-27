@@ -28,6 +28,7 @@ I made the HTML more semantic by replacing <divs> with elements <header>, <nav>,
 ### Summary of HTML semantic improvements:
 
 Improvement# | Old HTML | Change | New HTML
+-------|-------|---------|-----------
  1 | Line 7 | Titled Site "Horiseon Solutions" | Line 8
  2 | Line  11 | Replaced <div> with  <header> | Line 15
  3 | Line 12 | Assigned class "logo" | Line 17
