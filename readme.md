@@ -1,6 +1,6 @@
 # Horiseon Solutions Code Refactor
 
-The goal of this project is to make the code of Horiseon Solution's website more accessible; more specifically, to make the code compliant with particular acceptance critera:
+The goal of this project is to make the code of Horiseon Solution's website more accessible; more specifically, to make the code compliant with particular acceptance criteria:
 
 * GIVEN a webpage meets accessibility standards
  * WHEN I view the source code
@@ -20,7 +20,7 @@ Accomplishing this will give Horiseon Solutions a codebase that follows accessib
 
 The first thing I noticed about the Horiseon Site is that one of the links did not function.  
 
-When I took a look at the HTML code I found very few semantic elements.  It was mostly `<div>`s.  The CSS code contained many reduntant selectors.
+When I took a look at the HTML code I found very few semantic elements.  It was mostly `<div>`s.  The CSS code contained many redundant selectors.
 
 I made the HTML more semantic by replacing `<div>`s with elements `<header>`, `<nav>`, `<main>`, `<aside>`, `<section>`>, and `<footer>`.  This makes it easier to distinguish which code is creating/modifying particular segments of the Horiseon Web Page.   
 
@@ -30,7 +30,7 @@ I made the HTML more semantic by replacing `<div>`s with elements `<header>`, `<
 Improvement# | Old HTML | Change | New HTML
 -------|-------|---------|-----------
  1 | Line 7 | Titled site `Horiseon Solutions` | Line 8
- 2 | Line  11 | Replaced `<div>` with  `<header>` | Line 15
+ 2 | Line 11 | Replaced `<div>` with `<header>` | Line 15
  3 | Line 12 | Assigned `class="logo"` | Line 17
  4 | Line 13 | Replaced `<div>` with `<nav>` | Line 19
  5 | Line 13 | Assigned `class="links"` | Line 19
@@ -79,11 +79,11 @@ Improvement# | Old CSS | Change | New CSS
 
 ## Overall effect of improvements
 
-The improved semantic HTML elements assist the viewer in identifying which peices of code apply to which parts of the website.  The improved indentation and spacing reduces clutter, and the comments add more clarity to what the code is doing.
+The improved semantic HTML elements assist the viewer in identifying which pieces of code apply to which parts of the website.  The improved indentation and spacing reduces clutter, and the comments add more clarity to what the code is doing.
 
-The improved semantic CSS elements assist the viewer in identifying what parts of the site are being styled by the selectors.  Also, the CSS is free of reduntant selectors, reducing clutter and confusion for the viewer.  Finally, selectors are placed in the order in which their corresponding elements appear in the HTML, making it even easier to find which HTML elements are being selected by the CSS.
+The improved semantic CSS elements assist the viewer in identifying what parts of the site are being styled by the selectors.  Also, the CSS is free of redundant selectors, reducing clutter and confusion for the viewer.  Finally, selectors are placed in the order in which their corresponding elements appear in the HTML, making it even easier to find which HTML elements are being selected by the CSS.
 
-Finally, when viewing the improved HTML and CSS side by side, both files are roughly the same number of lines, which is aesthetically preferable and again helps the viewer by reducing confusion as to what particular peices of code are doing.
+Finally, when viewing the improved HTML and CSS side by side, both files are roughly the same number of lines, which is aesthetically preferable and again helps the viewer by reducing confusion as to what particular pieces of code are doing.
 
 ## What I learned...
 
