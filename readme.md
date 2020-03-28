@@ -85,5 +85,13 @@ The improved semantic CSS elements assist the viewer in identifying what parts o
 
 Finally, when viewing the improved HTML and CSS side by side, both files are roughly the same number of lines, which is aesthetically preferable and again helps the viewer by reducing confusion as to what particular peices of code are doing.
 
+## What I learned...
 
+-Lack of semantics in an HTML or CSS document do little to aid others who may be viewing or editing the code in understanding the 'whys' and 'hows' of the code's structure.  
+
+-That there are many semantic elements available within HTML, i.e.: `<nav>`, `<main>`, `<aside>`, etc...
+
+-Some basic Markdown
+
+-More proficiency with pushing to Github and managing repositories.
 
