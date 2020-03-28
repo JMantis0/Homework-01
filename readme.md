@@ -74,7 +74,7 @@ Improvement# | Old CSS | Change | New CSS
  11 | Line 90 | Replaced 3 selectors `.benefit-lead`, `.benefit-brand`, and `.benefit-cost` with 1 `.benefit-section` | Line 111
  12 | Line 105 | Replaced 3 selectors `.benefit-lead h3`, `.benefit-brand h3`, and `.benefit-cost h3` with 1 `.benefit-section h3` | Line 116
  13 | Line 120 | Replaced 3 selectors `.benefit-lead img`, `.benefit-brand img`, and `.benefit-cost img` with 1 `.benefit-section img` | Line 121
- 14 | Line 199 | Replaced selector `.footer h2` with `h4` | Line 35
+ 14 | Line 199 | Replaced selector `.footer h2` with `h4` | Line 135
 
 
 ## Overall effect of improvements
