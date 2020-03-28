@@ -81,7 +81,7 @@ Improvement# | Old CSS | Change | New CSS
 
 The improved semantic HTML elements assist the viewer in identifying which peices of code apply to which parts of the website.  The improved indentation and spacing reduces clutter, and the comments add more clarity to what the code is doing.
 
-The improved semantic CSS elements assist the viewer in identifying what parts of the site are being styled by the selectors.  Also, the CSS is also free of reduntant selectors, reducing clutter and confusion for the viewer.  Finally, selectors are placed in the order in which their corresponding elements appear in the HTML, making it even easier to find which HTML elements are being selected by the CSS.
+The improved semantic CSS elements assist the viewer in identifying what parts of the site are being styled by the selectors.  Also, the CSS is free of reduntant selectors, reducing clutter and confusion for the viewer.  Finally, selectors are placed in the order in which their corresponding elements appear in the HTML, making it even easier to find which HTML elements are being selected by the CSS.
 
 Finally, when viewing the improved HTML and CSS side by side, both files are roughly the same number of lines, which is aesthetically preferable and again helps the viewer by reducing confusion as to what particular peices of code are doing.
 
