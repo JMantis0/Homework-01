@@ -1,6 +1,6 @@
 # Horiseon Solutions Code Refactor
 
-The goal of this project is to make the code of Horiseon Solution's website more accessible.  Specifically to make the code compliant with particular acceptance critera:
+The goal of this project is to make the code of Horiseon Solution's website more accessible; more specifically, to make the code compliant with particular acceptance critera:
 
 * GIVEN a webpage meets accessibility standards
  * WHEN I view the source code
@@ -29,23 +29,23 @@ I made the HTML more semantic by replacing `<div>`s with elements `<header>`, `<
 
 Improvement# | Old HTML | Change | New HTML
 -------|-------|---------|-----------
- 1 | Line 7 | Titled Site "Horiseon Solutions" | Line 8
- 2 | Line  11 | Replaced `<div>` with  ``<header>`` | Line 15
- 3 | Line 12 | Assigned class "logo" | Line 17
+ 1 | Line 7 | Titled site `Horiseon Solutions` | Line 8
+ 2 | Line  11 | Replaced `<div>` with  `<header>` | Line 15
+ 3 | Line 12 | Assigned `class="logo"` | Line 17
  4 | Line 13 | Replaced `<div>` with `<nav>` | Line 19
- 5 | Line 13 | Assigned class "links" | Line 19
- 6 | Line 27 | Assigned class and title "background-image" | Line 40
+ 5 | Line 13 | Assigned `class="links"` | Line 19
+ 6 | Line 27 | Assigned `class` and `title="background-image"` | Line 40
  7 | Line 28 | Replaced `<div>` with `<main>` | Line 43
- 8 | Line 28 | Reassigned class to "services" | Line 43
+ 8 | Line 28 | Reassigned `class="services"` | Line 43
  9 | Line 29 | Replaced `<div>` with `<section>`> | Line 46
-10 | Line 29 | Reassigned class to "service-section" | Line 46
-11 | Line 29 | Restored link functionality by adding id | Line 46
+10 | Line 29 | Reassigned `class="service-section"` | Line 46
+11 | Line 29 | Restored link functionality by adding `id="search-engine-optimization"` | Line 46
 12 | Line 30 | Added alt attribute to `<img>` | Line 48
 13 | Line 36 | Replaced `<div>` with `<section>`> | Line 58
-14 | Line 36 | Reassigned class to "service-section" | Line 58
+14 | Line 36 | Reassigned `class="service-section"` | Line 58
 15 | Line 37 | Added alt attribute to `<img>` | Line 60
 16 | Line 43 | Replaced `<div>` with `<section>`> | Line 70
-17 | Line 43 | Reassigned class to "service-section" | Line 70
+17 | Line 43 | Reassigned `class="service-section"` | Line 70
 18 | Line 44 | Added alt attribute to `<img>` | Line 72
 19 | Line 51 | Replaced `<div>` with `<aside>` | Line 84
 20 | Line 52 | Replaced `<div>` with `<section>`> | Line 87
@@ -71,8 +71,8 @@ Improvement# | Old CSS | Change | New CSS
  8 | Line 138 | Replaced 3 selectors `.search-engine-optimization`, `.online-reputation-management`, and `.social-media-marketing` with 1 `.service-section` | Line 67
  9 | Line 177 | Replaced 3 selectors `.search-engine-optimization h2`, `.online-reputation-management h2`, and `.social-media-marketing h2` with 1 `h2` | Line 76
  10 | Line 165 | Replaced 3 selectors `.search-engine-optimization img`, `.online-reputation-management img`, `.social-media-marketing img` with 1 `.service-section img` | Line 81
- 11 | Line 90 | Replaced 3 selectors `.benefit-lead`, `.benefit-brand`, and `.benefit-cost` with 1 `benefit-section` | Line 111
- 12 | Line 105 | Replaced 3 selectors `.benefit-lead h3`, `.benefit-brand h3`, and `.benefit-cost h3` with 1 `benefit-section h3` | Line 116
+ 11 | Line 90 | Replaced 3 selectors `.benefit-lead`, `.benefit-brand`, and `.benefit-cost` with 1 `.benefit-section` | Line 111
+ 12 | Line 105 | Replaced 3 selectors `.benefit-lead h3`, `.benefit-brand h3`, and `.benefit-cost h3` with 1 `.benefit-section h3` | Line 116
  13 | Line 120 | Replaced 3 selectors `.benefit-lead img`, `.benefit-brand img`, and `.benefit-cost img` with 1 `.benefit-section img` | Line 121
  14 | Line 199 | Replaced selector `.footer h2` with `h4` | Line 35
 
