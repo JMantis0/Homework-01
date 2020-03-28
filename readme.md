@@ -56,18 +56,32 @@ Improvement# | Old HTML | Change | New HTML
 25 | Line 68 | Added alt attribute to `<img>` | Line 112
 26 | Line 74 | Replaced `<div>` with `<footer>` | Line 122
 
+### Summary of CSS semantic improvements:
+Improvement# | Old CSS | Change | New CSS
+-------|-------|---------|-----------
+ 1 | Line 19 | Replaced selector `.header h1` with `.logo` | Line 19
+ 2 | Line 24 | Replaced selector `.header h1 .seo` with `.logo-middle` | Line 24
+ 3 | Line 28 | Replaced selector `.header div` with `.links` | Line 28
+ 4 | Line 36 | Replaced selector `.header div u1` with `u1` | Line 36
+ 5 | Line 40 | Replaced selector `.header div ul li` with `li`| Line 40
+ 6 | Line 54 | Replaced selector `.hero` with `#background-image` | Line 51
+ 7 | Line 73 | Replaced selector `.content` with `.services` | Line 61
+ 8 | Line 138 | Replaced 3 selectors `.search-engine-optimization`, `.online-reputation-management`, and `.social-media-marketing` with 1 `.service-section` | Line 67
+ 9 | Line 177 | Replaced 3 selectors `.search-engine-optimization h2`, `.online-reputation-management h2`, and `.social-media-marketing h2` with 1 `h2` | Line 76
+ 10 | Line 165 | Replaced 3 selectors `.search-engine-optimization img`, `.online-reputation-management img`, `.social-media-marketing img` with 1 `.service-section img` | Line 81
+ 11 | Line 90 | Replaced 3 selectors `.benefit-lead`, `.benefit-brand`, and `.benefit-cost` with 1 `benefit-section` | Line 111
+ 12 | Line 105 | Replaced 3 selectors `.benefit-lead h3`, `.benefit-brand h3`, and `.benefit-cost h3` with 1 `benefit-section h3` | Line 116
+ 13 | Line 120 | Replaced 3 selectors `.benefit-lead img`, `.benefit-brand img`, and `.benefit-cost img` with 1 `.benefit-section img` | Line 121
+ 14 | Line 199 | Replaced selector `.footer h2` with `h4` | Line 35
 
-Summary of CSS improvements coming soon
 
+## Overall effect of improvements
 
-HTML
-Also on line 46 (Old 29) : Restored Link functionality by assigning id="search-engine-optimization"
+The improved semantic HTML elements assist the viewer in identifying which peices of code apply to which parts of the website.  The improved indentation and spacing reduces clutter, and the comments add more clarity to what the code is doing.
 
-HTML
-Also changed class to "service-section" to reduce redunancy in the CSS.  Repeated this for sections on line 58 (Old 36) and line 70 (Old 43)
+The improved semantic CSS elements assist the viewer in identifying what parts of the site are being styled by the selectors.  Also, the CSS is also free of reduntant selectors, reducing clutter and confusion for the viewer.  Finally, selectors are placed in the order in which their corresponding elements appear in the HTML, making it even easier to find which HTML elements are being selected by the CSS.
 
-CSS
-These three sections were styled exactly the same way by three different CSS Selectors (Old 138, 147, 156.)  Giving them all the same semantic class "service-section" allowed them all to be styled with one selector (New 67)
+Finally, when viewing the improved HTML and CSS side by side, both files are roughly the same number of lines, which is aesthetically preferable and again helps the viewer by reducing confusion as to what particular peices of code are doing.
 
 
 
