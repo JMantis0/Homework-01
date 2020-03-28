@@ -56,6 +56,8 @@ Improvement# | Old HTML | Change | New HTML
 25 | Line 68 | Added alt attribute to `<img>` | Line 112
 26 | Line 74 | Replaced `<div>` with `<footer>` | Line 122
 
+I made the CSS more semantic by changing the selectors to select the classes that I changed in the HTML.  I also consolidated several sets of redundant selectors to make the code shorter and less confusing.
+
 ### Summary of CSS semantic improvements:
 Improvement# | Old CSS | Change | New CSS
 -------|-------|---------|-----------
